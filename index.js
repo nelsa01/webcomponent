@@ -21,7 +21,7 @@ template.innerHTML = `
 </div>
 </form>
 `
-class FormInput extends HTMLElement {
+class InputTag extends HTMLElement {
     constructor () {
         super();
         this.attachShadow({ mode: "open"});
@@ -31,4 +31,4 @@ class FormInput extends HTMLElement {
 
     }
 }
-window.customElements.define("f-input", FormInput);
+window.customElements.define("i-input", InputTag);
